@@ -1,0 +1,5 @@
+This archive contains a Visual Studio 2015 solution with a web service that provides access to voucher information.  The voucher information is loaded from a file named data.json.  Your task is to complete development of this service and improve it in any way you think appropriate.  This should include:
+
+• Incorporate IOC using a DI container of your choice.
+• Appropriate unit testing coverage.
+• Refactoring as appropriate to improve the overall usability and maintainability of the codebase.
