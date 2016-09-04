@@ -29,7 +29,7 @@ namespace Dominos.OLO.Vouchers.Controllers
         {
             var vouchers = Repository.GetVouchers(count);
             //The following throw can be uncommented to test error handling
-            throw new InvalidOperationException("This exception was thrown in an action method.");
+            //throw new InvalidOperationException("This exception was thrown in an action method.");
             return vouchers.ToArray(); //use to a non .net type like list in case non microsoft systems are reading info
         }
 
