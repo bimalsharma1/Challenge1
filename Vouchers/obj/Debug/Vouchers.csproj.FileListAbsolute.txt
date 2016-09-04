@@ -186,4 +186,3 @@ C:\Dominos\Challenge1\InterviewChallenge1\Vouchers\bin\System.Web.Http.xml
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers\bin\System.Web.Http.WebHost.xml
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers\obj\Debug\Dominos.OLO.Vouchers.dll
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers\obj\Debug\Dominos.OLO.Vouchers.pdb
-C:\Dominos\Challenge1\InterviewChallenge1\Vouchers\obj\Debug\Vouchers.csprojResolveAssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
 
 namespace Dominos.OLO.Vouchers
 {
@@ -11,6 +12,10 @@ namespace Dominos.OLO.Vouchers
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+
+            //Error Handler
+            config.Services.Replace(typeof(IExceptionHandler), new Logging.GlobalExceptionHandler());
+
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

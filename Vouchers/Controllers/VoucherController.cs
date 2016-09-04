@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Web.Http;
 using Dominos.OLO.Vouchers.Models;
 using Dominos.OLO.Vouchers.Repository;
+using System.Net;
 /*
- * Author: Bimal Sharma
- * Description: Main controller and actions of the system
- * includes routes for all the httpget
- */
+* Author: Bimal Sharma
+* Description: Main controller and actions of the system
+* includes routes for all the httpget
+*/
 namespace Dominos.OLO.Vouchers.Controllers
 {
 
@@ -27,7 +28,8 @@ namespace Dominos.OLO.Vouchers.Controllers
         public Voucher[] Get(int count = 0)
         {
             var vouchers = Repository.GetVouchers(count);
-            return vouchers.ToArray(); //stick to a non .net type like list in case non microsoft systems are reading info
+          //  throw new InvalidOperationException("This exception was thrown in an action method.");
+            return vouchers.ToArray(); //use to a non .net type like list in case non microsoft systems are reading info
         }
 
 

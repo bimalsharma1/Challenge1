@@ -115,3 +115,4 @@ C:\Dominos\Challenge1\InterviewChallenge1\Vouchers.Tests.Unit\bin\Debug\Microsof
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers.Tests.Unit\obj\Debug\Vouchers.Tests.Unit.csprojResolveAssemblyReference.cache
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers.Tests.Unit\obj\Debug\Dominos.OLO.Vouchers.Tests.Unit.dll
 C:\Dominos\Challenge1\InterviewChallenge1\Vouchers.Tests.Unit\obj\Debug\Dominos.OLO.Vouchers.Tests.Unit.pdb
+C:\Dominos\Challenge1\InterviewChallenge1\Vouchers.Tests.Unit\bin\Debug\App_Data\data.json
