@@ -38,7 +38,7 @@ namespace Dominos.OLO.Vouchers.Tests.Unit
             }
 
             var elapsed = DateTime.Now.Subtract(startTime).TotalMilliseconds;
-            Assert.LessOrEqual(elapsed, 15000);
+            Assert.LessOrEqual(elapsed, 20000);
         }
 
         [Test]
@@ -52,7 +52,7 @@ namespace Dominos.OLO.Vouchers.Tests.Unit
             }
 
             var elapsed = DateTime.Now.Subtract(startTime).TotalMilliseconds;
-            Assert.LessOrEqual(elapsed, 15000);
+            Assert.LessOrEqual(elapsed, 20000);
         }
 
         [Test]
@@ -66,7 +66,7 @@ namespace Dominos.OLO.Vouchers.Tests.Unit
             }
 
             var elapsed = DateTime.Now.Subtract(startTime).TotalMilliseconds;
-            Assert.LessOrEqual(elapsed, 15000);
+            Assert.LessOrEqual(elapsed, 20000);
         }
     }
 }

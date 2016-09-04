@@ -13,7 +13,7 @@ namespace Dominos.OLO.Vouchers.Tests.Unit
             public string MapPath(string path)
             {
                 path = path + @"\";
-                return path;// Path.Combine(@"\App_Data", path);
+                return path;
             }
         }
 }

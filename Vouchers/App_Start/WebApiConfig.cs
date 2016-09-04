@@ -13,9 +13,10 @@ namespace Dominos.OLO.Vouchers
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            //Error Handler
+            //Error Handler setup
             config.Services.Replace(typeof(IExceptionHandler), new Logging.GlobalExceptionHandler());
 
+            //Error loggin NOT IMPLEMENTED due to time constraints
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
