@@ -1,0 +1,30 @@
+
+Best Practices Used
+
+1) The file names needed in application should be added in web.config file.Even
+if there is need to change file name we can change it from one single location
+that is web.config.
+
+2) The controller code should be as clean as possible.It's job should be only passing data to the user.
+
+3) All data manipulation logic should be performed in repository class.
+
+4) Have made use of unity for purpose of dependency injection.So controller is no more responsible for creating instance of class which it's need.This job of instantiating
+class is perform by third party tool named Unity.
+
+5)  A repository acts like a middleman between the rest of the application and the data access logic. 
+A repository isolates all the data access code from rest of the application.
+
+6) Constructor of Repository class should be static so that only one time
+it will get called.In construtor we can place logic of retrieving all data from datasource
+and bind it to the buisness entity/domain object.
+
+7) Repository pattern should have interface and class implementing that
+interface.In our case if we have to retrieved data from sql database or from
+XMl rather than static json file
+.We need to create another class that implements
+the same interface but this class connects to sql database.
+
+8) Add error handler to send proper messages
+
+ 
